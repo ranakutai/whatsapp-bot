@@ -9,7 +9,9 @@ WhatsAsena - Yusuf Usta
 const { Sequelize } = require("sequelize")
 const fs = require("fs")
 if (fs.existsSync("config.env"))
-  require("dotenv").config({ path: "./config.env" })
+  require("dotenv").config({ path:Click New File
+Name it index.js as in the panel startup script.
+Paste the code below and change SESSION_ID "./config.env" })
 
 // Özel Fonksiyonlarımız
 function convertToBool(text, fault = "true") {
